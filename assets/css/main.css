@@ -1,0 +1,92 @@
+#splash{
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff0081;
+    z-index: 5;
+}
+
+.firstImage{
+    background-image: url(../images/taxi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+#splash img{
+    padding-left: 25em;
+    margin-top: 8em;
+    width: 70%;
+}
+
+.allBtn{
+  text-align: center;
+  margin-top: 19em;
+}
+
+.btnBack{
+  font-size: 20px;
+  margin-right: 15em;
+  padding-top: 0.5em;
+}
+
+.singUp{
+  background-color: white;
+  width: 23em;
+  height: 23em;
+  text-align: center;
+  display: none;
+}
+
+.inputFirst{
+  margin-bottom: 1em;
+}
+
+.verify{
+  background-color: white;
+  width: 23em;
+  height: 23em;
+  text-align: center;
+  display: none;
+}
+
+.inputVerify{
+  margin-bottom: 1em;
+}
+
+.btnCode{
+  margin-bottom: 1em;
+}
+
+.register{
+  background-color: white;
+  width: 23em;
+  height: 23em;
+  text-align: center;
+  display: none;
+}
+
+.registerFinish{
+  background-color: #b60076;
+  color: white;
+  width: 23em;
+  height: 23em;
+  text-align: center;
+  display: none;
+}
+
+
+@media (min-width: 200px) and (max-width:768px){
+    #splash img{
+      padding-left: 6em;
+    }
+}

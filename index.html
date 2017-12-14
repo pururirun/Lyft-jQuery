@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Lyft</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+
+      <section class="firstImage">
+
+<!--modal 1-->
+
+        <div class="container singUp">
+            <span class="glyphicon glyphicon-circle-arrow-left btnBack"></span>
+            <h2>SING UP</h2>
+            <p>Join now for free ride credit</p>
+            <hr>
+            <div class="row inputFirst">
+              <div class="col-lg-12">
+                <div class="input-group">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><img class="flagImages"src="assets/images/flag-1.png"></span> <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#"><img class="flagImages"src="assets/images/flag-2.png"></a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#"><img class="flagImages"src="assets/images/flag-3.png"></a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#"><img class="flagImages"src="assets/images/flag-4.png"></a></li>
+                    </ul>
+                  </div><!-- /btn-group -->
+                  <input type="text" class="form-control inputNumber" aria-label="..." placeholder="____________________________________________________">
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+            <p>We'll send a text to verify your phone</p>
+            <button class="btn btn-default btn-block btnNext" type="submit">NEXT</button>
+          </div>
+
+<!--modal 2-->
+
+          <div class="container verify">
+              <h2>Verify phone number</h2>
+              <p>Join now for free ride credit</p>
+              <hr>
+              <form class="form-inline">
+                  <div class="form-group">
+                      <label for="exampleInputName2"><strong>Lab</strong></label>
+                      <input class="inputVerify" type="text" class="form-control" id="exampleInputName2">
+                  </div>
+                </form>
+                <button class="btn btn-default btn-xs btnCode" type="submit">Resend code</button>
+                <p>Enter the code sent to +52</p>
+                <button class="btn btn-default btn-block btnNextTwo" type="submit">NEXT</button>
+          </div>
+
+<!--modal 3-->
+
+          <div class="container register">
+              <h2>SING UP</h2>
+              <p>Join now for free ride credit</p>
+              <hr>
+              <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+                  <input type="text" class="form-control" placeholder="First name           Last name" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope"></span></span>
+                  <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+              </div>
+              <div class="checkbox">
+                  <label><input type="checkbox" value="">I agree to Lyft's <a href="#">Terms of service</a></label>
+              </div>
+              <button class="btn btn-default btn-block btnNext3" type="submit">NEXT</button>
+          </div>
+
+<!--Final-->
+
+          <div class="container registerFinish">
+              <h2>¡BUENAZA CALABAZA!</h2>
+          </div>
+
+          <div class="row">
+              <div class="col-xs-12 col-lg-12 allBtn">
+                  <button class="logIn btn btn-default" type="button" name="button">LOG IN</button>
+                  <button id="singUp" class="btn btn-default singU" type="button" name="button">SING UP</button>
+                </div>
+          </div>
+      </section>
+
+<!--splash-->
+      <div id="splash">
+          <div class="row">
+              <div class="col-xs-12 col-lg-12">
+                  <img src="assets/images/lyft-logo.png">
+              </div>
+          </div>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="assets/js/app.js"></script>
+  </body>
+</html>
